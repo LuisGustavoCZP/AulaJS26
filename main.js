@@ -9,7 +9,7 @@ const ramals = require('./modules/ramals.js');
 
 database.CreateRandom(10);
 
-app.use(express.static(__dirname+"/www"));
+//app.use(express.static(__dirname+"/www"));
 app.get('/bybirthmount', function(req, res){
     res.send(births.ByMount(parseInt(req.query["n"])));
 });
