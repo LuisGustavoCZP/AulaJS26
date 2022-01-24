@@ -23,37 +23,8 @@ function Client (_name, _ramal, _email, _sector, _birthday)
 
 function CreateRandom (n)
 {
-    const nomes = 
-    [
-        "Joao",
-        "Claudia",
-        "Marta",
-        "Jose",
-        "Carlos",
-        "Maria",
-        "Ricardo",
-        "Carol",
-        "Pedro",
-        "Joana",
-        "Gustavo",
-        "Vitoria",
-        "Caique",
-        "Felipe",
-        "Flavia",
-        "Talita",
-        "Gabriela",
-        "Renato",
-        "Yan"
-    ];
-    const sobrenomes =    
-    [
-        "Santos",
-        "Pereira",
-        "Ferreira",
-        "Silva",
-        "Carvalho",
-        "Rocha",
-    ];
+    const nomes = ["Joao","Claudia","Marta","Jose","Carlos","Maria","Ricardo","Carol","Pedro","Joana","Gustavo","Vitoria","Caique","Felipe","Flavia","Talita","Gabriela","Renato","Yan"];
+    const sobrenomes = ["Santos","Pereira","Ferreira","Silva","Carvalho","Rocha",];
     
     for(let i = 0; i < n; i++)
     {
